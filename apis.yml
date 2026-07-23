@@ -1,7 +1,24 @@
 aid: adphorus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adphorus.png
 name: Adphorus
-description: Adphorus is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Adphorus was an Istanbul- and Berlin-based travel marketing-science company and an official
+  Facebook and Instagram Marketing Partner (certified since 2014) that specialized in automated, scalable
+  Dynamic Ads for Travel, helping brands such as Expedia, Trivago, and Kayak scale full-funnel performance
+  on Facebook and Instagram. The company was acquired by Sojern in November 2017 and subsequently absorbed;
+  it operates no independent public website or developer API today, so this network profile is retained as
+  a historical/portfolio record rather than an active API provider. The enrichment pipeline found no live
+  domain, developer portal, or specification to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/adphorus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: sojern
+x-acquired-date: '2017-11-16'
+x-domain-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Advertising
+- AdTech
+- Travel
+- Marketing
+- Facebook Ads
+- Social Media
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: https://adphorus.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
